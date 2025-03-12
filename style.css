@@ -1,6 +1,13 @@
 body
 {
     background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 #description{
     /* text-preset-3-bold */
@@ -87,7 +94,7 @@ body
     align-items: center;
     gap: var(--spacing-150, 12px);
     max-width: 336px;
-    margin:1px auto;
+    margin:auto;
     padding: var(--spacing-200, 24px);
     border-radius: 20px;
     border: 1px solid var(--color-gray-950, #111);
